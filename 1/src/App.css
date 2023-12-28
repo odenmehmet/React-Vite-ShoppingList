@@ -1,0 +1,106 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 200px;
+  border: 2px solid #808080;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px azure;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+
+}
+input:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+input:focus {
+  outline: none;
+  border: 0.5px solid #808080;
+}
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+li span {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.bought {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+/* Buton Stilleri */
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: rgb(52, 45, 45);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Checkbox Stilleri */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
